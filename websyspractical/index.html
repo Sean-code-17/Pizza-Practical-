@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<meta charset=UTF-8>
+<title> PIZZA BY THE SLICE </title>
+<head>
+
+<body>
+<h1>PIZZA BY THE SLICE<h1>
+
+<p> Thank you for visiting our store. Kindly fill out the order form for your order to be processed and delivered. <p>
+
+
+<form action="#" method="POST">
+
+<h2>Personal Details<h2>
+
+<label for="full-name">Full Name:</label>
+<input type="text"> id="full-name" name="full_name" minlength="5" max length="60" required/>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required/>
+
+<label for="phone">Phone Number:</label>
+<input type="tel" id="phone" name="phone" pattern="[0-9] {7-11}" minlength="7" maxlength="11" required/>
+
+<label for="age">Age:</label>
+<input type="number" id="age" min="13" max="99" required>
+
+<br>
+
+Pizza Size
+<h2>Pizza Size</h2>
+
+<label>
+<input type="radio" name="pizza_size" value="small"/>
+Small
+</label>
+<label>
+input type="radio name="pizza_size" value="medium"/>
+Medium
+</label>
+<label>
+input type="radio name="pizza_size" value="large"/>
+Large
+</label>
+<label>
+input type="radio name="pizza_size" value="x1"/>
+Extra Large
+</label>
+
+<br>
+
+Pizza Crust Type
+<h2>Pizza Crust Type</h2>
+
+<label for="crust">Crust:</label>
+
+<select id="crust" name="crust" required>
+<option value="" disabled selected>-- Choose a crust --</option>
+<option value="thin">Thin</option>
+<option value="thick">Thick</option>
+<option value="stuffed">Stuffed</option>
+<option value="gluten-free">Gluten-Free</option>
+</select>
+
+<br>
+
+Pizza Sauce
+<h2>Pizza Sauce</h2>
+
+<label for="sauce">Sauce:</label>
+
+<select id="sauce" name="sauce" required>
+<option value="" disabled selected>-- Choose a sauce --</option>
+
+<optgroup label="Classic"> 
+<option value="tomato">Tomato</option>
+<option value="white-garlic">White-Garlic</option>
+</optgroup>
+<optgroup label="Special">
+<option value="pesto">Pesto</option>
+<option value="barbeque">Barbeque</option>
+</optgroup>
+</select>
+
+<br>
+
+Toppings
+<h2>Toppings</h2>
+
+<label>
+<input type="checkbox" name="toppings" value="cheese" checked disabled/> Cheese</label>
+<label>
+<input type="checkbox" name="toppings" value="pepperoni" class="topping"/> Pepperoni</label>
+<label>
+<input type="checkbox" name="toppings" value="mushrooms" class="topping"/> Mushrooms</label>
+<label>
+<input type="checkbox" name="toppings" value="onions" class="topping"/> Onions</label>
+<label>
+<input type="checkbox" name="toppings" value="bell-pepper" class="topping"/> Bell Pepper</label>
+<label>
+<input type="checkbox" name="toppings" value="olives" class="topping"/> Olives</label>
+<label>
+<input type="checkbox" name="toppings" value="bacon" class="topping"/> Bacon</label>
+<label>
+<input type="checkbox" name="toppings" value="pineapple" class="topping"/> Pineapple</label>
+
+<br>
+
+Delivery Method
+<h2>Delivery Method</h2>
+<label>
+<input type="radio" name="delivery" value="home-delivery" required/> Home Delivery</label>
+<label>
+<input type="radio" name="delivery" value="store-pickup" required/> Store Pickup</label>
+
+<br>
+
+<label for="address">Deliver your Pizza to:</label>
+<textarea id="address" name="address" rows="3" placeholder="Enter your full delivery address here.">
+</textarea>
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+</html>
